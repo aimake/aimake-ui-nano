@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "extends": "aimake/react",
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+  },
+  "globals": {
+  },
+  "rules": {
+    "no-prototype-builtins": 0
+  }
+}

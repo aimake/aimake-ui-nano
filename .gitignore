@@ -1,0 +1,10 @@
+*.DS_Store
+*.sublime-*
+.env
+.idea/*
+.npmrc
+.tmp
+node_modules
+npm-debug.log
+.happypack/*
+/lib

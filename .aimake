@@ -1,0 +1,14 @@
+{
+  "libType": "react",
+  "webpack": {
+    "entry": {
+      "app": "./example/app.js",
+      "legao-ui-react": "./components/index.js"
+    },
+    "entryHtml": "./example/index.html",
+    "srcPath": "example",
+    "outputPath": "dist",
+    "libraryTarget": "umd",
+    "target": "web"
+  }
+}

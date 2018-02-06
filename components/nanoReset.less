@@ -1,0 +1,337 @@
+
+// The prefix to use on all css classes from ant.
+@ant-prefix             : ant;
+
+// 字体（new add）
+@font-size-1: 12px; // 正文、表单label、表单内容
+@font-size-2: 14px; // 大按钮、列表表头
+@font-size-3: 16px; // panel标题
+@font-size-4: 18px; // 页面标题
+// 间距 最大间距24px,16px,12px,8px,4px
+@distance-1: 4px;
+@distance-2: 8px;
+@distance-3: 12px;
+@distance-4: 16px;
+@distance-5: 24px;
+
+// -------- Colors -----------
+
+
+// Color used by default to control hover and active backgrounds and for
+// alert info backgrounds.
+
+
+// Base Scaffolding Variables
+// ---
+
+// Background color for `<body>`
+@body-background        : #EFEFEF;
+// Base background color for most components
+@component-background   : #fff;
+@font-family            : "Helvetica Neue For Number", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@code-family            : Consolas, Menlo, Courier, monospace;
+
+@font-size-base         : 12px;// 基础字号
+@line-height-base       : 1.5;// 行高
+@border-radius-base     : 0px;// 基础圆角
+@border-radius-sm       : 0px;// 小圆角
+
+// The background colors for active and hover states for things like
+// list items or table cells.
+
+
+// ICONFONT
+@iconfont-css-prefix    : anticon;
+
+// LINK
+
+@link-hover-decoration  : none;// 链接装饰
+
+// Animation
+
+
+// Border color
+@border-width-base      : 1px; // 边框粗细           // width of the border for a component
+@border-style-base      : solid; // 边框样式         // style of a components border
+
+// Outline
+@outline-blur-size      : 0; // 轮廓线模糊
+@outline-width          : 2px; // 轮廓线粗细
+//
+//// Default background color for disabled states, Collapse wrappers,
+//// and several active and hover states.
+//
+//// Disabled states
+
+// Shadow
+@shadow-color           : rgba(0, 0, 0, .2);  // 阴影色
+
+// Buttons
+@btn-font-weight        : 400; //按钮文字粗细
+
+@btn-primary-color      : #fff; //主题按钮颜色
+
+@btn-default-bg         : #fff;//默认按钮背景色
+//
+//
+
+@btn-padding-base       : 0 12px; // 按钮间距
+@btn-padding-lg         : 0 16px; // 按钮间距大
+@btn-padding-sm         : 0 8px; // 按钮间距小
+
+@btn-height-base        : 32px;  // 基础按钮高
+@btn-height-lg          : 40px;  // 大按钮高
+@btn-height-sm          : 24px;  // 小按钮高
+
+//
+//
+//// Radio buttons
+
+// Media queries breakpoints
+// Extra small screen / phone
+@screen-xs              : 480px;
+
+// Small screen / tablet
+@screen-sm              : 768px;
+
+// Medium screen / desktop
+@screen-md              : 992px;
+
+// Large screen / wide desktop
+@screen-lg              : 1200px;
+
+// Extra Large screen / full hd
+@screen-xl              : 1600px;
+
+// provide a maximum
+
+// Grid system
+@grid-columns           : 24;
+@grid-gutter-width      : 0;
+
+// Layout
+@layout-header-height        : 64px; // layout header高度
+@layout-header-padding       : 0 48px;// layout header间距
+@layout-footer-padding       : 24px 48px;// layout footer间距
+@layout-trigger-height       : 48px; // layout菜单高度
+@layout-zero-trigger-width   : 36px; // layout菜单宽度
+@layout-zero-trigger-height  : 42px; // layout菜单高度
+
+// z-index list
+@zindex-affix           : 10;
+@zindex-back-top        : 10;
+@zindex-modal-mask      : 1000;
+@zindex-modal           : 1000;
+@zindex-notification    : 1010;
+@zindex-message         : 1010;
+@zindex-popover         : 1030;
+@zindex-picker          : 1050;
+@zindex-dropdown        : 1050;
+@zindex-tooltip         : 1060;
+
+// Animation
+@animation-duration-slow: .3s; // Modal
+@animation-duration-base: .2s;
+@animation-duration-fast: .1s; // Tooltip
+
+// Form
+// ---
+@form-item-margin-bottom     : 24px;// 底间距
+@form-item-trailing-colon    : true;// 表单结尾
+
+// Input
+// ---
+@input-height-base           : 32px;// 基础输入框
+@input-height-lg             : 40px;// 大输入框
+@input-height-sm             : 24px;// 小输入框
+@input-padding-horizontal    : 8px;// 文字水平间距
+@input-padding-vertical-base : 6px;// 文字基础垂直间距
+@input-padding-vertical-sm   : 2px;// 文字小垂直间距
+@input-padding-vertical-lg   : 6px;// 文字大垂直间距
+@input-bg                    : #fff;// 输入框背景色
+
+// Tooltip
+// ---
+//* Tooltip max width
+@tooltip-max-width: 250px;// 最大宽度
+//** Tooltip text color
+@tooltip-color: #515151;// 文字色
+//** Tooltip background color
+@tooltip-bg: rgba(255, 255, 255, .85);// 背景色
+//** Tooltip arrow width
+@tooltip-arrow-width: 5px;// 箭头大小
+//** Tooltip distance with trigger
+//** Tooltip arrow color
+
+// Popover
+// ---
+//** Popover body background color
+@popover-bg: #fff;// 背景色
+//** Popover text color
+//** Popover maximum width
+@popover-min-width: 177px;// 最小宽度
+//** Popover arrow width
+@popover-arrow-width: 4px;// 箭头宽度
+//** Popover arrow color
+//** Popover outer arrow width
+//** Popover outer arrow color
+//** Popover distance with trigger
+
+// Modal
+// --
+@modal-mask-bg: rgba(55, 55, 55, 0.6);
+
+// Progress
+// --
+
+// Menu
+// ---
+
+// Spin
+// ---
+@spin-dot-size-sm: 14px;// 加载小
+@spin-dot-size: 20px;// 加载中
+@spin-dot-size-lg: 32px;// 加载大
+
+// Table
+// --
+@table-padding-vertical: 12px;// 表格垂直间距
+@table-padding-horizontal: 8px;// 表格水平间距
+
+// Tag
+// --
+
+// TimePicker
+// ---
+@time-picker-panel-column-width: 56px;// 时间选择单元格宽度
+
+// Carousel
+// ---
+@carousel-dot-width: 16px;// 走马灯点宽度
+@carousel-dot-height: 3px;// 走马灯点高度
+@carousel-dot-active-width: 24px;// 走马灯点当前宽度
+
+// Badge
+// ---
+@badge-height: 20px;// 徽标高度
+@badge-dot-size: 8px;// 徽标点大小
+
+// Rate
+// ---
+
+// Card
+// ---
+@card-head-height: 48px;// 卡片头部高度
+
+// Tabs
+// ---
+
+// BackTop
+@back-top-color: #fff;// 返回顶部文字颜色
+@back-top-bg: rgba(64, 64, 64, 0.4);// 返回顶部背景
+@back-top-hover-bg: rgba(64, 64, 64, 0.6);// 返回顶部hover背景色
+
+//@import 'colorPalette';
+
+// color palettes
+@text-1: #252525;// 标题文字色
+@text-2: #4C4C4C;// 正文文字色
+@text-3: #878787;// 辅助文字色，说明文字
+@text-4: #B9B9B9;// 禁用文字色，输入框内提示文字色
+@text-dark-1:fade(#fff, 97%);// 深色背景标题文字色
+@text-dark-2:fade(#fff, 91%);// 深色背景正文文字色
+@text-dark-3:fade(#fff, 67%);// 深色背景辅助文字色
+@text-dark-4:fade(#fff, 35%);// 深色背景禁用文字色
+
+@grey-1: #F6F7F8;// 主要背景色（layout背景色，未选中tab背景色，table表头、斑马格，进度条条背景，表单禁用背景色）
+@grey-2: #E0E4E7;// 边框色：布局元素边框色，分隔线;背景色：背景hover，tag背景，步骤条，评分
+@grey-3: #CAD0D6;// 基础中性色（表单元素边框颜色）
+@grey-4: #B4BCC5;// 按钮边框色
+@grey-5: #939FAB;
+@grey-6: #728292;
+@grey-7: #606E7C;
+@grey-8: #4F5A66;
+@grey-9: #3E4750;
+@grey-10: #353D45;
+
+@blue-1: #F2F6FF;// select、dropdown列表背景hover，alert背景
+@blue-2: #DEE8FF;
+@blue-3: #CBDAFF;
+@blue-4: #B7CCFF;
+@blue-5: #90B0FF;
+@blue-6: #6994FF;
+@blue-7: #4178FF;// 主题色
+@blue-8: #1A5CFF;
+@blue-9: #0046F2;
+@blue-10: #0040DE;
+
+@purple-1: #F3EAFF;
+@purple-2: #E7D7FF;
+@purple-3: #DCC3FF;
+@purple-4: #CCA8FF;
+@purple-5: #B988FF;
+@purple-6: #AE75FF;
+@purple-7: #A261FF;
+@purple-8: #964DFF;
+@purple-9: #8B3AFF;
+@purple-10: #7F26FF;
+
+@cyan-1: #F0FCFE;
+@cyan-2: #DDF7FD;
+@cyan-3: #B8EFFB;
+@cyan-4: #93E7F9;
+@cyan-5: #6EDFF6;
+@cyan-6: #49D6F4;
+@cyan-7: #24CEF2;
+@cyan-8: #0DBCE1;
+@cyan-9: #0CADCF;
+@cyan-10: #0B9DBC;
+
+@green-1: #F2FBF3;// alert背景
+@green-2: #E3F6E6;
+@green-3: #C5EDCB;
+@green-4: #A7E4B1;
+@green-5: #89DB96;
+@green-6: #6BD17C;
+@green-7: #4DC861;// 成功色
+@green-8: #38B64D;
+@green-9: #33A746;
+@green-10: #2A893A;
+
+
+@pink-6: #f5317f;
+
+
+@red-1: #FFFCF7;// alert背景
+@red-2: #FEE9E8;
+@red-3: #FDD7D5;
+@red-4: #FBB4AF;
+@red-5: #FA908A;
+@red-6: #F86D64;
+@red-7: #F6493F;// 错误色
+@red-8: #F4251A;
+@red-9: #DC160A;
+@red-10: #C91409;
+
+@orange-1: #FFFCF7;// alert背景
+@orange-2: #FFF4E3;
+@orange-3: #FFE4BC;
+@orange-4: #FFD495;
+@orange-5: #FFC56D;
+@orange-6: #FFB546;
+@orange-7: #FFA51F;// 警告色
+@orange-8: #F79400;
+@orange-9: #E38800;
+@orange-10: #D07C00;
+
+@yellow-1: #FFFCF0;
+@yellow-2: #FFF8DC;
+@yellow-3: #FFF4C9;
+@yellow-4: #FFF0B5;
+@yellow-5: #FEE98E;
+@yellow-6: #FEE167;
+@yellow-7: #FED940;
+@yellow-8: #FED119;
+@yellow-9: #EEC001;
+@yellow-10: #DBB001;
+

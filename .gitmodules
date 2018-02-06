@@ -1,0 +1,3 @@
+[submodule "vendor/antd"]
+	path = vendor/antd
+	url = https://github.com/ant-design/ant-design
