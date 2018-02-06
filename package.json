@@ -29,7 +29,7 @@
     "colorful": "^2.1.0",
     "commander": "^2.14.0",
     "eslint": "^4.17.0",
-    "eslint-config-aimake": "0.0.1",
+    "eslint-config-aimake": "latest",
     "extract-text-webpack-plugin": "^3.0.2",
     "fs-extra": "^5.0.0",
     "glob": "^7.1.2",
